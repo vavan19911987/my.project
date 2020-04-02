@@ -1,0 +1,130 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+.main {
+    position: relative;
+    /* border: red 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    min-height: 600px;
+    background-color: #f9fafc;
+    background-size: cover;
+
+}
+
+.main h1 {
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: 500;
+    cursor: help;
+    margin-top: 8rem;
+    /* border: red 1px solid; */
+
+}
+
+.main form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: red 1px solid; */
+    background-color: #fff;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.5);
+
+
+
+}
+
+.main input {
+    /* display: inline-block; */
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    /* border-radius: 2rem; */
+}
+
+.main label {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 5px;
+    color: #4d4e50;
+
+}
+
+
+.group {
+    margin: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+}
+
+.main-arrow {
+    position: relative;
+    z-index: 2;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-down {
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    /* margin-bottom: 70px; */
+    margin-top: 20px;
+}
+
+.arrow-downs {
+ margin: 0;
+ padding: 0;
+}
+
+.arrow-down:hover {
+    box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.5);
+    /* background-color: #6e45e2; */
+    color: rgb(192, 187, 187);
+
+}
+
+.btn {
+    background-color: #fff;
+    border: #9fa4af 1px solid;
+    color: #9fa4af;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 0.8rem 2rem;
+    transition: 0.4;
+}
+
+.btn:hover {
+    background-color: #6e45e2;
+    color: #fff;
+
+}
